@@ -1,10 +1,10 @@
 package labs;
 import java.util.*;
 import java.io.*;
-public class HelloWorld 
-{
+
+public class FunWithTryCatch {
 	
-	public static void main(String[] args) 
+	public static void main(String[] args)
 	{
 		
 		boolean goodData = true;
@@ -47,10 +47,5 @@ public class HelloWorld
 			{
 				System.out.println("Bad input: " + e.getMessage());
 			}
-		
-		
-		
-		
 	}
-
 }
